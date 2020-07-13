@@ -1,0 +1,43 @@
+<html>
+    <script src="JQuery/jquery-1.9.1.js"></script><script src="JQuery/jquery-ui.js"></script>
+    <link href="table_sorter/css/theme.default.css" rel="stylesheet">
+    <script type="text/javascript" src="table_sorter/js/jquery.tablesorter.min.js"></script><script type="text/javascript" src="table_sorter/js/jquery.tablesorter.widgets.min.js"></script><script type="text/javascript">
+$(function() {
+	$( "#tabs" ).tabs();
+	$('table').tablesorter({
+			sortList: [[0,0]],
+			widgets        : ['zebra', 'columns'],
+			usNumberFormat : true,
+			sortRestart    : true
+	});
+});
+</script>
+    <body>
+        <table style="empty-cells:show;" id="veiwStandingTable" class="tablesorter" border="1px">
+            <thead>
+                <tr>
+                    <th>Rank</th><th>Team Name</th><th>Solved</th><th>Time</th><th>Prob 1</th><th>Problem 2</th><th>Prob 3</th><th>Problem 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td><td>hey</td><td>3</td><td>54</td><td style="text-align:center;background:#58FA58;border-color:white;">1/3</td><td style="text-align:center;background:#FF6666; border-color:white;">4/--</td><td style="text-align:center;background:#58FA58;border-color:white;">1/27</td><td style="text-align:center;background:#58FA58;border-color:white;">1/24</td>
+                </tr>
+
+                <tr>
+                    <td>2</td><td>team naks</td><td>2</td><td>30</td><td style="text-align:center;background:#58FA58;border-color:white;">1/5</td><td style="text-align:center;border-color:white;">0/--</td><td style="text-align:center;background:#58FA58;border-color:white;">1/25</td><td style="text-align:center;border-color:white;">0/--</td>
+                </tr>
+                <tr>
+                    <td>3</td><td>team oragon</td><td>1</td><td>1</td><td style="text-align:center;background:#58FA58;border-color:white;">1/1</td><td style="text-align:center;background:#FF6666; border-color:white;">1/--</td><td style="text-align:center;border-color:white;">0/--</td><td style="text-align:center;border-color:white;">0/--</td>
+                </tr>
+                <tr>
+                    <td>4</td><td>maorag</td><td>1</td><td>6</td><td style="text-align:center;background:#58FA58;border-color:white;">1/6</td><td style="text-align:center;border-color:white;">0/--</td><td style="text-align:center;border-color:white;">0/--</td><td style="text-align:center;border-color:white;">0/--</td>
+                </tr>
+                <tr>
+                    <td>5</td><td>team5</td><td>0</td><td>0</td><td style="text-align:center;border-color:white;">0/--</td><td style="text-align:center;border-color:white;">0/--</td><td style="text-align:center;border-color:white;">0/--</td><td style="text-align:center;border-color:white;">0/--</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

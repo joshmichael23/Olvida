@@ -1,0 +1,143 @@
+.col-sm-8{
+   
+    
+    color : #fff;
+}
+.info-box{
+    width: 90%;
+    margin-left:5%;
+}
+.title1{
+    font-style:italic;
+}
+.bg-landpage{
+    background-image: url("../images/bg-landing-homepage.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.info-box-number{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even){background-color: #e2dede}
+  
+  th {
+    background-color: #1f528c;
+    color: white;
+  }
+.enter-code{
+    width:20%;
+}
+.col-sm-4{
+    background-color:#fff;
+    height: 100%;
+}
+.welcome{
+    margin-top:5%;
+}
+.part1{
+    margin-bottom:5%;
+}
+.p2{
+    margin-top: 3%;
+}
+.p3{
+    margin-bottom:3%;
+}
+.feedback-go{
+    text-align: left !important;
+}
+.a-dash{
+    
+    color:#fff;
+    text-align: center;
+}
+.as{
+    margin-top:20%;
+}
+.text{
+    color: white;
+}
+.r-dash{
+    margin-top:5% !important;
+}
+.center{
+    margin-top:1 !important;
+}
+.modal-title{
+    color:black;
+}
+.home-p3{
+    color:#fff;
+} */
+.btn-login{
+    background-color:rgb(20, 20, 90);
+    width:88%;
+    margin-top:10%;
+}
+.login{
+    margin-top: 50%;
+}
+.wrapper{
+    background-color: white !important;
+}
+.password{
+    margin-top:10%;
+    text-align:center;
+}
+.button {
+    border-radius: 2px;
+    background-color: #102466;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
+
